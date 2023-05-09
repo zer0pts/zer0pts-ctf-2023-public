@@ -22,21 +22,30 @@ body {
         color: rgba(255, 255, 255, 0.92);
         font-family: 'Roboto', sans-serif;
 }
+section {
+    width: 100%;
+}
 </style>
 </head>
 <body>
-    <div style="min-height: 100%">
-        <div style="display: flex; flex-direction: column; align-items: center;">
-            <h1 style="font-size: 3em;">zer0pts CTF 2023</h1>
-            <img src="./assets/zer0pts_logo_white.svg" style="display: block; height: 12em;"/>
-            <p>2022-06-17 12:00:00 +09:00 - 2022-06-18 12:00:00 +09:00</p>
+    <div style="min-height: 100%; max-width: 768px; margin: 0 auto;">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <h1 style="font-size: 3em;">zer0pts CTF 2023</h1>
+                <img src="./assets/zer0pts_logo_white.svg" style="display: block; height: 12em;"/>
+                <p>2022-06-17 12:00:00 +09:00 - 2022-06-18 12:00:00 +09:00</p>
 
-        <p>
-            zer0pts CTF is a jeopardy-style CTF.<br />
-            We provide many fun challenges of varying difficulty and categories, and none of them require any guessing skills.
-        </p>
+            <section>
+                <p>
+                    zer0pts CTF is a jeopardy-style CTF.<br />
+                    We provide many fun challenges of varying difficulty and categories, and none of them require any guessing skills.
+                </p>
+            </section>
+
+            <section>
+                <h3>[ Sponsor ]</h3>
+                <p>infra sponsored by <a href="https://goo.gle/ctfsponsorship" about="_blank">Google CTF Sponsorship</a>.</p>
+            </section>
         </div>
-
     </div>
 </body>
 </html>
