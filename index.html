@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="jp">
-<head>
+  <head>
     <meta property="og:site_name" content="zer0pts CTF 2023"/>
     <meta property="og:url" content="https://2023.ctf.zer0pts.com/"/>
     <meta property="og:description" content="zer0pts CTF 2023 organized by zer0pts"/>
@@ -8,44 +8,82 @@
     <meta property="og:image" content="https://www.zer0pts.com/assets/zer0pts_wb.png"/>
     <meta charSet="utf-8"/>
     <meta name="viewport" content="width=device-width"/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>zer0pts CTF 2023</title>
-<style>
-html,body {
-    min-height: 100vh;
-        height: 100%;
-}
-body {
-    background-color: #0b1933;
-        color: rgba(255, 255, 255, 0.92);
-        font-family: 'Roboto', sans-serif;
-}
-section {
-    width: 100%;
-}
-</style>
-</head>
-<body>
+    <style>
+     html,body {
+       min-height: 100vh;
+       height: 100%;
+       font-size: 1rem;
+     }
+     body {
+       background-color: #0b1933;
+       color: rgba(255, 255, 255, 0.92);
+       font-family: 'Roboto', sans-serif;
+     }
+     section {
+       width: 100%;
+     }
+     ul li {
+       list-style: none;
+     }
+     .sponsor {
+       display: flex;
+       justify-content: center;
+     }
+     .sponsor-item {
+       flex: 0 0 1vw;
+       margin: auto 2vw;
+     }
+     .sponsor-item img {
+       max-width: 20em;
+     }
+    </style>
+  </head>
+  <body>
     <div style="min-height: 100%; max-width: 768px; margin: 0 auto;">
-            <div style="display: flex; flex-direction: column; align-items: center;">
-                <h1 style="font-size: 3em;">zer0pts CTF 2023</h1>
-                <img src="./assets/zer0pts_logo_white.svg" style="display: block; height: 12em;"/>
-                <p>2023-07-15 12:00:00 +09:00 - 2023-07-16 12:00:00 +09:00</p>
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <h1 style="font-size: 3em;">zer0pts CTF 2023</h1>
+        <img src="./assets/zer0pts_logo_white.svg" style="display: block; height: 12em;"/>
+        <p>2023-07-15 12:00:00 +09:00 - 2023-07-16 12:00:00 +09:00</p>
 
-            <section>
-                <p>
-                    zer0pts CTF is a jeopardy-style CTF.<br />
-                    We provide many fun challenges of varying difficulty and categories, and none of them require any guessing skills.
-                </p>
-            </section>
+        <section>
+          <p>
+            zer0pts CTF is a jeopardy-style CTF.<br />
+            We offer a diverse range of enjoyable challenges across various difficulty levels and categories, all without the need for any guessing skills.
+          </p>
+        </section>
 
-            <section>
-                <h3>[ Sponsor ]</h3>
-                <p>infra sponsored by <a href="https://goo.gle/ctfsponsorship" about="_blank">Google CTF Sponsorship</a>.</p>
-            </section>
-        </div>
+        <section>
+          <h3>[ Prizes ]</h3>
+          <p>1. There are prizes for the top-performing teams.</p>
+          <ul>
+            <li>&#129351; 800 USD + 1 year HTB voucher (VIP+) &#215; 4</li>
+            <li>&#129352; 500 USD + 1 year HTB voucher (VIP) &#215; 4</li>
+            <li>&#129353; 300 USD + 6 months HTB voucher (VIP) &#215; 4</li>
+          </ul>
+          <p>2. The team that secures the first place will qualify for the SECCON CTF 2023 Finals (International division).</p>
+        </section>
+
+        <section>
+          <h3>[ Sponsors ]</h3>
+          <p>Generous sponsors:</p>
+          <div class="sponsor">
+            <div class="sponsor-item">
+              <a href="https://osec.io/" target="_blank"><img src="/assets/ottersec.png" alt="OtterSec" style="width: 20vw;"></a>
+            </div>
+            <div class="sponsor-item">
+              <a href="https://osec.io/" target="_blank"><img src="/assets/htb.svg" alt="HackTheBox" style="width: 20vw;"></a>
+            </div>
+            <div class="sponsor-item">
+              <a href="https://goo.gle/ctfsponsorship" target="_blank"><img src="/assets/google.png" alt="Google CTF Sponsorship" style="width: 16vw;"></a>
+            </div>
+          </div>
+          <p style="text-align: center;">Infra sponsored by <a href="https://goo.gle/ctfsponsorship" about="_blank">Google CTF Sponsorship</a>.</p>
+        </section>
+      </div>
     </div>
-</body>
+  </body>
 </html>
