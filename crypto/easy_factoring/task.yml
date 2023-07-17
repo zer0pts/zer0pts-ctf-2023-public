@@ -1,0 +1,13 @@
+---
+name: easy_factoring
+description: >
+  The word "decomposition" has multiple meanings.<br>
+  Can you decompose?<br>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{piyopiyo_Fermat's_Sum_of_Square_meow!!}"
+author: mitsu
+host: crypto.2023.zer0pts.com
+port: 10333
+tags:
+  - crypto
+is_survey: false

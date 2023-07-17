@@ -1,0 +1,14 @@
+---
+name: "Neko Note"
+description: >
+  <p>
+    I made another note app.<br>
+    <a href="http://{host}:{port}/" target="_blank">http://{host}:{port}/</a>
+  </p>
+flag: "zer0pts{neko_no_te_mo_karitai_m8jYx9WiTDY}"
+author: st98
+host: neko-note.2023.zer0pts.com
+port: 8005
+tags:
+  - web
+is_survey: false

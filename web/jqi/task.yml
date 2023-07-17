@@ -1,0 +1,14 @@
+---
+name: "jqi"
+description: >
+  <p>
+    I think jq is useful, so I decided to make a Web app that uses jq.<br>
+    <a href="http://{host}:{port}/" target="_blank">http://{host}:{port}/</a>
+  </p>
+flag: "zer0pts{1dk_why_1t_uses_jq}"
+author: st98
+host: jqi.2023.zer0pts.com
+port: 8300
+tags:
+  - web
+is_survey: false

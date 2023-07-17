@@ -1,0 +1,10 @@
+---
+name: "decompile me"
+description: >
+  <p>Reverse engineering is getting easier thanks to IDA/Ghidra decompiler!</p>
+flag: "zer0pts{d0n'7_4lw4y5_7ru57_d3c0mp1l3r}"
+author: ptr-yudai
+tags:
+  - reversing
+  - warmup
+is_survey: false

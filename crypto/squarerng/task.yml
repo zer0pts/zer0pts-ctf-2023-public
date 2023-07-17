@@ -1,0 +1,13 @@
+---
+name: "SquareRNG"
+description: >
+  <p>I wrote a pseudorandom number generator. You can't guess the next bit without knowing each other's secret.</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{L(a)L(b)=L(ab)}"
+author: ptr-yudai
+host: crypto.2023.zer0pts.com
+port: 10666
+tags:
+  - crypto
+  - warmup
+is_survey: false

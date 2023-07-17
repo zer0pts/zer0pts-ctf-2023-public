@@ -1,0 +1,12 @@
+---
+name: "sharr"
+description: >
+  <p>ARRay manager through SHared file.</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{1_sh0uld_h4v3_us3d_creat_1nst34d_0f_open+chmod}"
+author: ptr-yudai
+host: others.2023.zer0pts.com
+port: 9002
+tags:
+  - pwn
+is_survey: false

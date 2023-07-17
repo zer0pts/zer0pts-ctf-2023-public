@@ -1,0 +1,13 @@
+---
+name: "aush"
+description: >
+  <p>I will give you the shell, but after you authenticated yourself.</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{p0lLut3_7h3_3nv1r0nnnNNnnnNnnnnNNNnnNnnNn}"
+author: ptr-yudai
+host: pwn.2023.zer0pts.com
+port: 9006
+tags:
+  - pwn
+  - warmup
+is_survey: false

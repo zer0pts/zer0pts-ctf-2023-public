@@ -1,0 +1,10 @@
+version: '3'
+services:
+  moduhash:
+    build: ./
+    ports:
+      - 10444:9999
+    environment:
+      FLAG: zer0pts{Th3_m0dul4r_gr0up_1s_g3n3r4t3d_by_4cti0ns_S_T}
+    restart: on-failure:10
+    entrypoint: ""

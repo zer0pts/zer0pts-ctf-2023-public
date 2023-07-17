@@ -1,0 +1,38 @@
+version: '3'
+services:
+  challenge:
+    build: ./distfiles/service
+    ports:
+      - "8505:8080"
+    links:
+      - redis
+    environment:
+      - UWSGI_INI=/app/uwsgi.ini
+      - LISTEN_PORT=8080
+    restart: unless-stopped
+
+  report:
+    build: ./distfiles/report
+    ports:
+      - "8515:8080"
+    links:
+      - redis
+      - crawler
+    environment:
+      - UWSGI_INI=/app/uwsgi.ini
+      - LISTEN_PORT=8080
+      - RECAPTCHA_KEY=(redacted)
+    restart: unless-stopped
+
+  crawler:
+    build: ./distfiles/crawler
+    links:
+      - challenge
+      - redis
+    environment:
+      - "flag=zer0pts{<iframe>_1s_a_s7r0ng_t00l_f0r_D0M_cl0bb3r1ng}"
+    restart: unless-stopped
+
+  redis:
+    build: ./distfiles/redis
+    restart: unless-stopped

@@ -1,0 +1,9 @@
+---
+name: "topology"
+description: >
+  <p>No worries. It's a network topology, not an algebraic one.</p>
+flag: "zer0pts{kMo7UtDhqMfXhaUp0kP8MEPLPJFgKUx7YlWyyxB9POKUhegFqdNm5sXIfxk2FIfV}"
+author: ptr-yudai
+tags:
+  - reversing
+is_survey: false

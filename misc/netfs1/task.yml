@@ -1,0 +1,15 @@
+---
+name: "NetFS 1"
+description: >
+  <p>NetFS is a simple file viewer over network.</p>
+  <code>nc {host} {port}</code> (JP)<br>
+  <code>nc misc2.2023.zer0pts.com {port}</code> (US)<br>
+  <code>nc misc3.2023.zer0pts.com {port}</code> (EU)
+flag: "zer0pts{d0Nt_r3sp0nd_t00_qu1ck}"
+author: ptr-yudai
+host: misc.2023.zer0pts.com
+port: 10021
+tags:
+  - misc
+  - warmup
+is_survey: false

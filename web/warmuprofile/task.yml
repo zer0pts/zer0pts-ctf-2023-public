@@ -1,0 +1,22 @@
+---
+name: "Warmuprofile"
+description: >
+  <p>
+    I made an app to share your profile.<br>
+    <a href="http://{host}:{port}/" target="_blank">http://{host}:{port}/</a><br>
+    <a href="http://misc.2023.zer0pts.com:8600/" target="_blank">http://misc.2023.zer0pts.com:8600/</a> (backup)<br>
+    <a href="http://misc2.2023.zer0pts.com:8600/" target="_blank">http://misc2.2023.zer0pts.com:8600/</a> (US)<br>
+    <a href="http://misc3.2023.zer0pts.com:8600/" target="_blank">http://misc3.2023.zer0pts.com:8600/</a> (EU)<br>
+  </p>
+  <p>
+    Note: Click "Spawn container" to make a challenge container only for you.
+    When writing exploits, be careful that the container asks for BASIC auth credentials.
+  </p>
+flag: "zer0pts{fire_ice_storm_di_acute_brain_damned_jugem_bayoen_bayoen_bayoen_10cefab0}"
+author: st98
+host: others.2023.zer0pts.com
+port: 8600
+tags:
+  - web
+  - warmup
+is_survey: false

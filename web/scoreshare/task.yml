@@ -1,0 +1,14 @@
+---
+name: "ScoreShare"
+description: >
+  <p>
+  Share your sheet music <a href="http://{host}:{port}/" target="_blank">here</a>!<br>
+  * Please <a href="http://{host}:8515/" target="_blank">report us</a> if you find any bugs.
+  </p>
+flag: "zer0pts{<iframe>_1s_a_s7r0ng_t00l_f0r_D0M_cl0bb3r1ng}"
+author: ptr-yudai
+host: score-share.2023.zer0pts.com
+port: 8505
+tags:
+  - web
+is_survey: false

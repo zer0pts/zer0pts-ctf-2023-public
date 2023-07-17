@@ -1,0 +1,10 @@
+---
+name: Elliptic Ring RSA
+description: >
+  RSA is hard over integer ring.<br>
+  What about RSA over elliptic curve ring (!?)
+flag: zer0pts{Gr0up_r1ng_meow!!!}
+author: mitsu
+tags:
+  - crypto
+is_survey: false

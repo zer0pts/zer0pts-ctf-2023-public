@@ -1,0 +1,14 @@
+---
+name: "Ringtone"
+description: >
+  <p>
+  Catch the precious bells with my chrome extension, access its related website <a href="http://{host}:{port}/" target="_blank">here</a>!<br>
+  * Please <a href="http://{host}:1337/" target="_blank">report us</a> if you find any bugs.
+  </p>
+flag: "zer0pts{extensions_are_really_muzukashi}"
+author: Kahla
+host: ringtone.2023.zer0pts.com
+port: 8505
+tags:
+  - web
+is_survey: false

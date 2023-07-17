@@ -1,0 +1,12 @@
+---
+name: moduhash
+description: >
+  This is related to a base of the theory of elliptic curves!<br>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{Th3_m0dul4r_gr0up_1s_g3n3r4t3d_by_4cti0ns_S_T}"
+author: mitsu
+host: crypto.2023.zer0pts.com
+port: 10444
+tags:
+  - crypto
+is_survey: false

@@ -1,0 +1,13 @@
+---
+name: RSALCG2
+description: >
+  <p>LCG is weak even when it is used with RSA, but what if when they are stacked?</p>
+  <p>This challenge was inspired by the <a href=https://github.com/RICSecLab/ricerca-ctf-2023-public/tree/main/crypto/rsalcg>RSALCG</a> in Ricerca CTF 2023</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{i_h0pe_y0u_d1d_n0t_v10l3ntly_5o1v3_th1s_w1th_th3_c0mput4t10n4l_p0w3r}"
+author: keymoon
+host: crypto.2023.zer0pts.com
+port: 7002
+tags:
+  - crypto
+is_survey: false

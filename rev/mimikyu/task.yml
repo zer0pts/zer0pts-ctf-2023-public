@@ -1,0 +1,9 @@
+---
+name: "mimikyu"
+description: >
+  <p>Deja vu in Windows</p>
+flag: "zer0pts{L00k_th3_1nt3rn4l_0f_l1br4r13s!}"
+author: ptr-yudai
+tags:
+  - reversing
+is_survey: false

@@ -1,0 +1,9 @@
+---
+name: "fvm"
+description: >
+  <p>Are you bored with x86? Enjoy this x87 VM.</p>
+flag: "zer0pts{fun_0f_FPU_st4ck_m4ch1n3}"
+author: ptr-yudai
+tags:
+  - reversing
+is_survey: false

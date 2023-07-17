@@ -1,0 +1,12 @@
+---
+name: "flipper"
+description: >
+  <p>Get some flippers to swim in Linux kernel heap</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{pr4y_t0_7h3_c0sm1c_r4y_g0ds}"
+author: Xion
+host: others.2023.zer0pts.com
+port: 9007
+tags:
+  - pwn
+is_survey: false

@@ -1,0 +1,12 @@
+---
+name: "qjail"
+description: >
+  <p>Captured in <a href="https://github.com/qilingframework/qiling" target="_blank">Qiling</a></p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{Th1s_j4Il_f33Ls_m0R3_c0mF0rt4bL3_tH4n_r34L_3nv1r0nm3nt}"
+author: ptr-yudai
+host: pwn.2023.zer0pts.com
+port: 9005
+tags:
+  - pwn
+is_survey: false

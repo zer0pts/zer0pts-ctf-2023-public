@@ -1,0 +1,9 @@
+version: '3'
+services:
+  squarerng:
+    build: ./
+    ports:
+      - 10666:9999
+    restart: unless-stopped
+    environment:
+      FLAG: "zer0pts{L(a)L(b)=L(ab)}"

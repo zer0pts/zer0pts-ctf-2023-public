@@ -1,0 +1,9 @@
+version: '3'
+services:
+  easy_factoring:
+    build: ./
+    ports:
+      - 10333:9999
+    environment:
+      FLAG: zer0pts{piyopiyo_Fermat's_Sum_of_Square_meow!!}
+    restart: on-failure:10

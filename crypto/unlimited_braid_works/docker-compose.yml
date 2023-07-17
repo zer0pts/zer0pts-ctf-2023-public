@@ -1,0 +1,10 @@
+version: '3'
+services:
+  unlimited_braid_works:
+    build: ./
+    ports:
+      - 10555:9999
+    environment:
+      FLAG: zer0pts{I_4m_th3_b0n3_0f_Art1n_g3n3r4t0rs}
+    restart: on-failure:10
+    entrypoint: ""

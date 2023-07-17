@@ -1,0 +1,7 @@
+version: '3'
+services:
+  rsalcg2:
+    build: ./
+    ports:
+      - 7002:9999
+    restart: on-failure:10

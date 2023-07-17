@@ -1,0 +1,10 @@
+version: '3'
+services:
+  brainjit:
+    build: .
+    ulimits:
+      nproc: 65535
+      core: 0
+    ports:
+      - "9004:9999"
+    restart: unless-stopped

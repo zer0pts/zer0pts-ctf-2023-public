@@ -1,0 +1,15 @@
+---
+name: "NetFS 2"
+description: >
+  <p><code>su</code> command delays for few seconds when I enter an invalid password. I added the feature to NetFS authentication.</p>
+  <p style="color:red;">The password for <code>netfs2.7z</code> is the flag of "NetFS 1"</p>
+  <code>nc {host} {port}</code> (JP)<br>
+  <code>nc misc2.2023.zer0pts.com {port}</code> (US)<br>
+  <code>nc misc3.2023.zer0pts.com {port}</code> (EU)
+flag: "zer0pts{pr0cfs_1s_5uch_4_n1c3_0r4cl3_5d17c4e}"
+author: ptr-yudai
+host: misc.2023.zer0pts.com
+port: 10022
+tags:
+  - misc
+is_survey: false

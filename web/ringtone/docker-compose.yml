@@ -1,0 +1,48 @@
+version: '3'
+services:
+  challenge:
+    build: ./distfiles/service
+    ports:
+      - "8505:8080"
+    links:
+      - redis
+    environment:
+      - UWSGI_INI=/app/uwsgi.ini
+      - LISTEN_PORT=8080
+      - FLAG=zer0pts{extensions_are_really_muzukashi}
+      - RANDOM=MIc5MDpXQlWj0ak1HnJ7r3iQg1vtOv
+
+    restart: always
+  report:
+    build: ./distfiles/report
+    ports:
+      - "1337:8080"
+    links:
+      - redis
+      - crawler
+    environment:
+      - UWSGI_INI=/app/uwsgi.ini
+      - LISTEN_PORT=8080
+      - RECAPTCHA_KEY=(redacted)
+    restart: always
+
+  crawler:
+    build: ./distfiles/crawler
+    links:
+      - challenge
+      - redis
+    environment:
+      - RANDOM=MIc5MDpXQlWj0ak1HnJ7r3iQg1vtOv
+
+    restart: always
+
+  redis:
+    build: ./distfiles/redis
+    restart: always
+networks:
+  default:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet:  10.103.0.1/16

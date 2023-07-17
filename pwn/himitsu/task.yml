@@ -1,0 +1,14 @@
+---
+name: "Himitsu Note"
+description: >
+  <p>Nobody can read my note :)</p>
+  <code>nc {host} {port}</code> (JP)<br>
+  <code>nc misc2.2023.zer0pts.com {port}</code> (US)<br>
+  <code>nc misc3.2023.zer0pts.com {port}</code> (EU)
+flag: "zer0pts{I_h0p3_U_s0lv3d_th1s_ch4ll3ng3_w1th_4ddr3ss_l34k}"
+author: ptr-yudai
+host: pwn.2023.zer0pts.com
+port: 9003
+tags:
+  - pwn
+is_survey: false
